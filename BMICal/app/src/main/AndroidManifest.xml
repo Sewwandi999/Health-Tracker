@@ -13,6 +13,21 @@
         android:theme="@style/Theme.BMICal"
         tools:targetApi="31">
         <activity
+            android:name=".healthy_weight"
+            android:exported="false" />
+        <activity
+            android:name=".over_weight"
+            android:exported="false" />
+        <activity
+            android:name=".under_weight"
+            android:exported="false" />
+        <activity
+            android:name=".activity_dietPlan2"
+            android:exported="false" />
+        <activity
+            android:name=".activity_dietPlan1"
+            android:exported="false" />
+        <activity
             android:name=".add_edit_habit"
             android:exported="false" />
         <activity
