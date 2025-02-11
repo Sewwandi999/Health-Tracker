@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BMI Cal</string>
+    <string-array name="frequency_options">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
 </resources>

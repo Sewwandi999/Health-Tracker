@@ -4,5 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#1C1A67</color>
     <color name="seablue">#33FFE4</color>
-    <color name="green">#1A672A</color>
+    <color name="light_blue">#E8F6FF</color>
+    <color name="green">#4CAF50</color>
+    <color name="shad">#22000000</color>
 </resources>

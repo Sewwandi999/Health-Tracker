@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".habit_1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_blue"
+        android:padding="16dp"
+        tools:ignore="RedundantNamespace">
+
+        <!-- Header Section -->
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="Hi, User!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/subheader_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here's your progress today!"
+            android:textSize="16sp"
+            android:layout_below="@id/welcome_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Daily Progress Ring -->
+        <ProgressBar
+            android:id="@+id/progress_ring"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/subheader_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:progress="70" />
+
+        <!-- Habit List Section -->
+        <LinearLayout
+            android:id="@+id/habit_list"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress_ring"
+            android:layout_marginTop="16dp">
+
+            <!-- Example Habit Card -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_card"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/habit_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drink Water"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <ProgressBar
+                    android:id="@+id/habit_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_below="@id/habit_name"
+                    android:layout_marginTop="8dp"
+                    android:progress="60" />
+
+                <Button
+                    android:id="@+id/mark_done_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="Mark as Done"
+                    android:backgroundTint="@color/green"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/add_habit_fab"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:background="@drawable/fab_background"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="RedundantNamespace">
+        <corners android:radius="16dp" />
+        <solid android:color="@color/white" />
+        <stroke android:width="5dp" android:color="@color/shad"/>
+        <shadowColor android:color="@color/shad" />
+
+    </shape>
+    </item>
+</selector>
