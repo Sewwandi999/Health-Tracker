@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="health_app">Health App</string>
+    <string name="health_app_dashboard">Health App Dashboard</string>
+    <string name="_50_0_kg">50.0 KG</string>
+    <string name="_116_0_cm">116.0 cm</string>
+    <string name="_19_23_bmi">19.23 BMI</string>
+</resources>
