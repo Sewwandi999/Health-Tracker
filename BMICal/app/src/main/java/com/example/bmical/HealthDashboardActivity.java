@@ -6,30 +6,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-public class over_weight extends AppCompatActivity {
-    LinearLayout back;
+public class HealthDashboardActivity extends AppCompatActivity {
+
+    LinearLayout  back;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_over_weight);
+        setContentView(R.layout.health_dashboard);
 
-        back = findViewById(R.id.back_btn);
+        back = findViewById(R.id.dash);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(over_weight.this, activity_dietPlan2.class);
+                Intent intent = new Intent(HealthDashboardActivity.this, HomeActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }

@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     SeekBar seekBar;
     TextView textView;
     ConstraintLayout calBtn;
+    ConstraintLayout back;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         calBtn = findViewById(R.id.cal_btn);
         seekBar =(SeekBar)findViewById(R.id.SeekBar);
         textView =(TextView)findViewById(R.id.TextView);
+        back = findViewById(R.id.back_btn);
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @SuppressLint("SetTextI18n")
@@ -48,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, bmi_activity2.class);
+                startActivity(intent);
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(intent);
             }
         });

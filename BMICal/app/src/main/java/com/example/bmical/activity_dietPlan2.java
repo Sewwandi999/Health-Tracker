@@ -1,8 +1,10 @@
 package com.example.bmical;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +17,8 @@ public class activity_dietPlan2 extends AppCompatActivity {
     ConstraintLayout uvBtn;
     ConstraintLayout ovBtn;
     ConstraintLayout hvBtn;
+    LinearLayout back;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +27,7 @@ public class activity_dietPlan2 extends AppCompatActivity {
         uvBtn = findViewById(R.id.uw_btn);
         ovBtn = findViewById(R.id.ow_btn);
         hvBtn = findViewById(R.id.hw_btn);
+        back = findViewById(R.id.back_btn);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -49,6 +54,14 @@ public class activity_dietPlan2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(activity_dietPlan2.this, under_weight.class);
+                startActivity(intent);
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(activity_dietPlan2.this, activity_dietPlan1.class);
                 startActivity(intent);
             }
         });

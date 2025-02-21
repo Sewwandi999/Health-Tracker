@@ -141,7 +141,7 @@
                 tools:ignore="MissingConstraints">
 
                 <LinearLayout
-                    android:id="@+id/linearLayout4"
+                    android:id="@+id/back_btn"
                     android:layout_width="61dp"
                     android:layout_height="69dp"
                     android:orientation="horizontal"

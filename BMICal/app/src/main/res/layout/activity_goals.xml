@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".GoalsActivity"
+    tools:ignore="ExtraText">
+    >
+
+    <!-- Top Header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#2E2A66"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icons8_back_48"
+            tools:ignore="ContentDescription,InefficientWeight" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="328dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Activity"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <!-- Search Bar -->
+    <LinearLayout
+        android:id="@+id/searchBar"
+        android:layout_width="364dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <EditText
+            android:id="@+id/search_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="Search"
+            android:padding="8dp"
+            tools:ignore="Autofill,HardcodedText,TextFields,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:src="@drawable/searchinterfacesymbol"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <!-- Activity List -->
+    <LinearLayout
+        android:id="@+id/activity_list"
+        android:layout_width="404dp"
+        android:layout_height="701dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchBar">
+
+
+        <Button
+            android:id="@+id/btn_swimming"
+
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="Swimming"
+            android:textColor="@color/black"
+
+            android:textColorLink="#F44336"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_cycling"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+
+            android:text="Cycling"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_hiking"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+
+            android:text="Haiking"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/swimming"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+
+            android:text="swimming"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/yoga1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+
+            android:text="Yoga"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/Zumba2"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+
+            android:backgroundTint="@color/light_blue"
+            android:text="Zumba"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/hiking"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="Hiking"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/jogging"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="jogging"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/yoga"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/light_blue"
+
+            android:text="Yoga"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/Zumba"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+
+            android:backgroundTint="@color/light_blue"
+            android:text="Zumba"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <!-- Pop-up Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/popup_card"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:visibility="visible"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="325dp"
+            android:layout_height="153dp"
+            android:layout_marginTop="75dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_start_activity"
+                android:layout_width="254dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#2E2A66"
+                android:text="Start Activity"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btn_log_activity"
+                android:layout_width="259dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#1E7D32"
+                android:text="Log Activity"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
