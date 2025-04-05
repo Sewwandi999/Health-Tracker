@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class over_weight extends AppCompatActivity {
-    LinearLayout back;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,15 +21,9 @@ public class over_weight extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_over_weight);
 
-        back = findViewById(R.id.back_btn);
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(over_weight.this, activity_dietPlan2.class);
-                startActivity(intent);
-            }
-        });
+
+
 
     }
 }

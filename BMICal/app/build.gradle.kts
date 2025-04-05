@@ -1,10 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
+
 }
 
 android {
     namespace = "com.example.bmical"
-    compileSdk = 34
+    compileSdk = 35  // Update this from 34 to 35
 
     defaultConfig {
         applicationId = "com.example.bmical"
@@ -12,7 +13,6 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -41,7 +41,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
+    //noinspection UseTomlInstead
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    //noinspection UseTomlInstead,KaptUsageInsteadOfKsp
 
 
 }
+
+

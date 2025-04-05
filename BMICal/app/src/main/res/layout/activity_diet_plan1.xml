@@ -12,13 +12,16 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="600dp"
-            android:layout_height="1800dp"
-            app:srcCompat="@drawable/vecteezy_diet_plan_for_healthy_concept_for_template_of_banners_"
-            tools:layout_editor_absoluteX="-95dp"
-            tools:layout_editor_absoluteY="-436dp"
-            tools:ignore="MissingConstraints" />
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/diet_concept_illustration_114360_5133"
+            tools:ignore="ContentDescription,MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,76 +30,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
-                android:background="@color/blue">
-
-
-                <LinearLayout
-                    android:id="@+id/back_btn"
-                    android:layout_width="61dp"
-                    android:layout_height="69dp"
-                    android:orientation="horizontal"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.005"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.428"
-                    tools:ignore="MissingConstraints,VisualLintBounds">
-
-                    <ImageView
-                        android:id="@+id/imageView2"
-                        android:layout_width="34dp"
-                        android:layout_height="34dp"
-                        android:layout_marginTop="15dp"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/icons8_back_48"
-                        tools:ignore="ContentDescription,InefficientWeight" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="80dp"
-                    android:layout_weight="1"
-                    android:text="Diet Plans"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.079"
-                    app:layout_constraintStart_toEndOf="@+id/linearLayout4"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.533"
-                    tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="110dp">
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="387dp"
-                    android:layout_height="106dp"
-                    android:gravity="center"
-                    android:text="Maintain your own  body
-with an expert diet plan"
-                    android:textColor="@color/black"
-                    android:textSize="30dp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="696dp">
+                android:layout_height="match_parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="418dp"
@@ -106,7 +40,7 @@ with an expert diet plan"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.903"
+                    app:layout_constraintVertical_bias="0.871"
                     tools:ignore="MissingConstraints">
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -120,7 +54,7 @@ with an expert diet plan"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.845"
+                    app:layout_constraintVertical_bias="0.808"
                     tools:ignore="MissingConstraints">
 
                     <ImageView
@@ -134,6 +68,25 @@ with an expert diet plan"
                         app:srcCompat="@drawable/icons8_handle_with_care_50"
                         tools:ignore="ContentDescription" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="387dp"
+                    android:layout_height="106dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Maintain your own  body
+            with an expert diet plan"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/plan_viewBtn"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.52"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.064"
+                    tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>

@@ -26,7 +26,7 @@ public class SignupActivity extends AppCompatActivity {
         Button signUpButton = findViewById(R.id.btnSignUp);
         signUpButton.setOnClickListener(v -> {
             // Assuming signup is successful, go to HomeActivity
-            Intent intent = new Intent(SignupActivity.this, home.class);
+            Intent intent = new Intent(SignupActivity.this, HomeActivity.class);
             startActivity(intent);
             finish();  // Close current activity
         });

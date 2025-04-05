@@ -9,38 +9,32 @@
     android:background="@color/dark_blue"
     android:padding="12dp"
     tools:context=".HealthDashboardActivity"
-    tools:ignore="ExtraText">
+    tools:ignore="ExtraText"><![CDATA[
 >
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Health App"
-        android:textSize="24dp"
-        android:textColor="@android:color/white"
-        tools:ignore="HardcodedText,SpUsage" />
+    ]]>
 
     <LinearLayout
         android:id="@+id/button_container"
-        android:layout_width="286dp"
-        android:layout_height="585dp"
+        android:layout_width="170dp"
+        android:layout_height="510dp"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="30dp"
-        android:orientation="vertical">
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
 
         <LinearLayout
-            android:layout_width="102dp"
-            android:layout_height="103dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:background="@drawable/rounded_background"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="75dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:foregroundGravity="center"
                 app:srcCompat="@drawable/profileuser"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
@@ -48,8 +42,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="97dp"
-            android:layout_height="100dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/rounded_background"
             android:orientation="vertical">
@@ -57,17 +51,16 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="75dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
                 app:srcCompat="@drawable/activity"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="96dp"
-            android:layout_height="94dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:layout_marginTop="20dp"
 
             android:background="@drawable/rounded_background"
@@ -77,17 +70,16 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="75dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
                 app:srcCompat="@drawable/mission"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="97dp"
-            android:layout_height="95dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:layout_marginTop="20dp"
 
             android:background="@drawable/rounded_background"
@@ -97,9 +89,8 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="75dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
                 app:srcCompat="@drawable/informationbutton"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
@@ -107,8 +98,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="99dp"
-            android:layout_height="105dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:layout_marginTop="20dp"
 
             android:background="@drawable/rounded_background"
@@ -118,9 +109,8 @@
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="75dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
                 app:srcCompat="@drawable/share"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
@@ -131,15 +121,15 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
+        android:id="@+id/logout"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="180dp"
-        android:layout_marginTop="15dp"
+
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
         android:text="Log out"
-        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textSize="22dp"
         android:textStyle="bold"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 

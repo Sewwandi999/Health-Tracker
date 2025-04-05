@@ -17,14 +17,11 @@
 
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="775dp"
-            android:layout_height="6700dp"
-            android:foregroundGravity="center"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/vecteezy_a_vibrant_arrangement_of_fresh_groceries_creating_a_colorful_54953704"
-            tools:ignore="ContentDescription,MissingConstraints"
-            tools:layout_editor_absoluteY="-2874dp" />
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/diet_concept_illustration_114360_5133"
+            tools:ignore="ContentDescription,MissingConstraints" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,62 +33,46 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout"
                 android:layout_width="match_parent"
-                android:layout_height="86dp"
-                android:background="@color/blue">
+                android:layout_height="match_parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/constraintLayout2"
-                    android:layout_width="404dp"
-                    android:layout_height="84dp"
+                    android:layout_width="418dp"
+                    android:layout_height="64dp"
+                    android:background="@color/blue"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.871"
                     tools:ignore="MissingConstraints">
 
-                    <LinearLayout
-                        android:id="@+id/back_btn"
-                        android:layout_width="61dp"
-                        android:layout_height="69dp"
-                        android:orientation="horizontal"
-                        tools:ignore="MissingConstraints,VisualLintBounds"
-                        tools:layout_editor_absoluteX="3dp"
-                        tools:layout_editor_absoluteY="-1dp">
-
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="34dp"
-                            android:layout_height="29dp"
-                            android:layout_marginTop="25dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/icons8_back_48"
-                            tools:ignore="ContentDescription,InefficientWeight" />
-
-                    </LinearLayout>
-
-                    <TextView
-                        android:id="@+id/textView1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Diet plans"
-                        android:textColor="@color/white"
-                        android:textSize="24sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.298"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/plan_viewBack"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle_btn"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.808"
+                    tools:ignore="MissingConstraints">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/linearLayout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/icons8_handle_with_care_50"
+                        tools:ignore="ContentDescription" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/ow_btn"
@@ -102,10 +83,10 @@
                     android:textAlignment="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.91"
+                    app:layout_constraintHorizontal_bias="0.735"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.6">
+                    app:layout_constraintVertical_bias="0.528">
 
                     <TextView
                         android:id="@+id/textView4"
@@ -133,10 +114,10 @@
                     android:foregroundGravity="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.91"
+                    app:layout_constraintHorizontal_bias="0.735"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.462"
+                    app:layout_constraintVertical_bias="0.374"
                     tools:ignore="MissingConstraints">
 
                     <TextView
@@ -163,10 +144,10 @@
                     android:foregroundGravity="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.91"
+                    app:layout_constraintHorizontal_bias="0.735"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.318"
+                    app:layout_constraintVertical_bias="0.227"
                     tools:ignore="MissingConstraints">
 
                     <TextView
@@ -185,15 +166,35 @@
                         tools:ignore="HardcodedText,SpUsage" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="119dp"
-                    android:layout_height="112dp"
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Choose a Suitable Diet Plan or make your own..."
                     android:textAlignment="center"
-                    android:foregroundGravity="center"
-                    tools:ignore="MissingConstraints"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.059" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:background="@drawable/circle_btn_b"
-                    tools:layout_editor_absoluteX="271dp"
-                    tools:layout_editor_absoluteY="550dp">
+                    android:foregroundGravity="center"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.845"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.668"
+                    tools:ignore="MissingConstraints">
 
 
                     <TextView
@@ -203,12 +204,11 @@
                         android:text="+"
                         android:textAlignment="center"
                         android:textColor="@color/white"
-                        android:textSize="75sp"
+                        android:textSize="50sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.119"
                         tools:ignore="HardcodedText" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>

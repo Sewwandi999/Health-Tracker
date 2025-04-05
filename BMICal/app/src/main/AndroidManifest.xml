@@ -6,57 +6,49 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/red_simple_medical_health_logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BMICal"
         tools:targetApi="31">
+
         <activity
             android:name=".healthy_weight"
-            android:exported="false" />
+            android:exported="true" />
+        <activity
+            android:name=".HealthDashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GoalsActivity"
+            android:exported="true" />
         <activity
             android:name=".over_weight"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".under_weight"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity_dietPlan2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity_dietPlan1"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".add_edit_habit"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".habit_1"
-            android:exported="false" /> <!-- Home activity with correct case -->
+            android:exported="true" /> <!-- Home activity with correct case -->
         <activity
-            android:name=".home"
+            android:name=".HomeActivity"
             android:exported="true" /> <!-- Other activities -->
         <activity
             android:name=".SignupActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LogActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".bmi_3"
-            android:exported="false" />
-        <activity
-            android:name=".activity_bmi3"
-            android:exported="false" />
-        <activity
-            android:name=".bmi_activity2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -66,6 +58,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity_bmi3"
+            android:exported="true" />
+        <activity
+            android:name=".bmi_activity2"
+            android:exported="true" />
+        <activity
+            android:name=".BmiMainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -39,7 +39,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="36sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <EditText
                 android:id="@+id/username"
@@ -70,7 +71,8 @@
                 android:layout_marginTop="30dp"
                 android:text="Login"
                 android:textSize="18sp"
-                app:cornerRadius="15dp" />
+                app:cornerRadius="15dp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

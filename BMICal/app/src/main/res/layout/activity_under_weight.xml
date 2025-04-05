@@ -11,15 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="987dp"
-            android:layout_height="3088dp"
-            app:srcCompat="@drawable/vecteezy_fruits_and_vegetables_26751430"
-            tools:layout_editor_absoluteX="-150dp"
-            tools:layout_editor_absoluteY="-1111dp"
-            tools:ignore="ContentDescription,MissingConstraints" />
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -37,6 +28,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+
+                    <ImageView
+                        android:id="@+id/uw"
+                        android:layout_width="775dp"
+                        android:layout_height="805dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ai_generated_freshness_fusion_frame_a_collage_of_fresh_produce_and_blossoms_epitomizing_the_essence_of_spring_for_promotional_allure_free_photo"
+                        tools:ignore="ContentDescription,MissingConstraints" />
+
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
@@ -48,10 +55,10 @@
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.073"
+                        app:layout_constraintHorizontal_bias="0.417"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.148"
+                        app:layout_constraintVertical_bias="0.166"
                         tools:ignore="HardcodedText,SpUsage" />
 
                     <TextView
@@ -63,10 +70,10 @@
                         android:textSize="25dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.208"
+                        app:layout_constraintHorizontal_bias="0.784"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.25"
+                        app:layout_constraintVertical_bias="0.261"
                         tools:ignore="HardcodedText,SpUsage" />
 
                     <TextView
@@ -80,10 +87,10 @@
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.057"
+                        app:layout_constraintHorizontal_bias="0.326"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.41"
+                        app:layout_constraintVertical_bias="0.436"
                         tools:ignore="HardcodedText,SpUsage" />
 
                     <TextView
@@ -95,10 +102,10 @@
                         android:textSize="25dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.232"
+                        app:layout_constraintHorizontal_bias="0.875"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.533"
+                        app:layout_constraintVertical_bias="0.576"
                         tools:ignore="HardcodedText,SpUsage" />
 
                     <TextView
@@ -112,10 +119,10 @@
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.06"
+                        app:layout_constraintHorizontal_bias="0.342"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.671"
+                        app:layout_constraintVertical_bias="0.724"
                         tools:ignore="HardcodedText,SpUsage" />
 
                     <TextView
@@ -127,10 +134,10 @@
                         android:textSize="25dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.232"
+                        app:layout_constraintHorizontal_bias="0.875"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.824"
+                        app:layout_constraintVertical_bias="0.915"
                         tools:ignore="HardcodedText,SpUsage" />
 
                     <androidx.constraintlayout.widget.ConstraintLayout
@@ -141,48 +148,23 @@
                         tools:ignore="MissingConstraints"
                         tools:layout_editor_absoluteY="1dp">
 
-                        <LinearLayout
-                            android:id="@+id/back_btn"
-                            android:layout_width="61dp"
-                            android:layout_height="69dp"
-                            android:orientation="horizontal"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.0"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.0"
-                            tools:ignore="MissingConstraints,VisualLintBounds">
-
-                            <ImageView
-                                android:id="@+id/imageView2"
-                                android:layout_width="34dp"
-                                android:layout_height="34dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_weight="1"
-                                app:srcCompat="@drawable/icons8_back_48"
-                                tools:ignore="ContentDescription,InefficientWeight" />
-
-
-                        </LinearLayout>
-
                         <TextView
                             android:id="@+id/textView1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginEnd="80dp"
+                            android:layout_marginEnd="200dp"
                             android:layout_weight="1"
-                            android:text="Diet Plans"
+                            android:text="Under Weight"
                             android:textColor="@color/white"
                             android:textSize="24sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.079"
-                            app:layout_constraintStart_toEndOf="@+id/linearLayout4"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="0.533"
                             tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
